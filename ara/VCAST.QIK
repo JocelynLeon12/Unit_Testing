@@ -1,0 +1,26 @@
+--  QuickParse File Version: QP_ALL_DEFINED_ENTITIES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\ara
+BEGIN_RECORD action_request_approver.c
+CHECKSUM 1986218839
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   ARA_u8ActionListCheck
+   ARA_u8PrecondListCheck
+   ARA_vActionRequestMonitor
+   ARA_vVehicleStatusMonitor
+CALLED_OBJECTS
+   ITCOM_s16GetMessageEnumById
+   ITCOM_s16SetErrorEvent
+   ITCOM_s8DequeueActionReq
+   ITCOM_s8LogNotificationMessage
+   ITCOM_s8QueueActionReq
+   ITCOM_u8GetASIState
+   ITCOM_u8GetParkStatus
+   ITCOM_u8GetVehicleSpeed
+   log_message
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD action_request_approver.c

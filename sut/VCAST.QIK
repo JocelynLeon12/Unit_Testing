@@ -1,0 +1,33 @@
+--  QuickParse File Version: QP_ALL_DEFINED_ENTITIES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\sut
+BEGIN_RECORD start_up_test.c
+CHECKSUM  432530343
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   SUT_vMainTask
+CALLED_OBJECTS
+   ARA_u8ActionListCheck
+   ARA_u8PrecondListCheck
+   ITCOM_s16SetErrorEvent
+   ITCOM_s8LogNotificationMessage
+   ITCOM_u8GetASIState
+   ITCOM_u8GetInitFlagStatus
+   ITCOM_u8GetParkStatus
+   ITCOM_u8GetVehicleSpeed
+   ITCOM_vRecordSutCompTime
+   ITCOM_vSetActionListTestResult
+   ITCOM_vSetMemoryTestResult
+   ITCOM_vSetPrecondListTestResult
+   ITCOM_vWriteSUTRes
+   MEM_u8CrcTest
+   MEM_u8RamMarchTest
+   MEM_u8RamPatternTest
+   UT_u32GetCurrentTime_ms
+   UT_vGetDateTime
+   log_message
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD start_up_test.c

@@ -1,0 +1,97 @@
+--  QuickParse File Version: QP_ALL_DEFINED_ENTITIES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\posix_framework
+BEGIN_RECORD process_management.c
+CHECKSUM 2140028875
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   PROCMANAGEMENT_stCreateChildProcess
+   PROCMANAGEMENT_vSignalHandlerInit
+   child_process
+   parent_process
+   setup_child_signal_handlers
+CALLED_OBJECTS
+   CRC_vCreateTable
+   FM_vLogRemainingEvents
+   FM_vLogSpecialEvent
+   ICM_vInit
+   ITCOM_vChildProcessWrapper
+   ITCOM_vGetErrorEvent
+   ITCOM_vGetParentTerminationFlag
+   ITCOM_vSetParentTerminationFlag
+   ITCOM_vSharedMemoryInit
+   SD_vCloseTCPConnection
+   SD_vTCPConnectionsInit
+   STM_vInit
+   get_abnormal_termination
+   get_signal_name
+   get_thread_exit
+   handle_thread_termination
+   initiate_graceful_shutdown
+   log_message
+   monitor_threads
+   save_all_shared_data_to_storage
+   set_thread_crashed
+   set_thread_exit
+   start_threads
+   write_shared_data_to_file
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD process_management.c
+BEGIN_RECORD storage_handler.c
+CHECKSUM 2836440272
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   compare_and_load_storage
+   create_storage_directory
+   initialize_storage_files
+   log_message
+   save_all_shared_data_to_storage
+   write_shared_data_to_file
+CALLED_OBJECTS
+   FM_s8SaveEventDataToStorage
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   global_log_file
+END_RECORD storage_handler.c
+BEGIN_RECORD thread_management.c
+CHECKSUM 2569212803
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   destroy_mutexes_and_sems
+   destroy_timers
+   get_abnormal_termination
+   get_current_thread_name
+   get_signal_name
+   get_thread_exit
+   handle_thread_termination
+   init_mutexes_and_sems
+   initiate_graceful_shutdown
+   monitor_threads
+   restore_main_thread_sigmask
+   set_thread_crashed
+   set_thread_exit
+   start_threads
+CALLED_OBJECTS
+   ITCOM_s16SetErrorEvent
+   ITCOM_vWrapperThread_ARA
+   ITCOM_vWrapperThread_CCU
+   ITCOM_vWrapperThread_CRV
+   ITCOM_vWrapperThread_FM
+   ITCOM_vWrapperThread_ICM_RX
+   ITCOM_vWrapperThread_ICM_TX
+   ITCOM_vWrapperThread_SD
+   ITCOM_vWrapperThread_STM
+   SD_vCloseTCPConnection
+   log_message
+   save_all_shared_data_to_storage
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD thread_management.c

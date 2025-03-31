@@ -1,0 +1,38 @@
+--  QuickParse File Version: QP_ALL_DEFINED_ENTITIES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\fm
+BEGIN_RECORD fault_manager.c
+CHECKSUM 1808539571
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   FM_s8SaveEventDataToStorage
+   FM_u32FindLeastSevereEvent
+   FM_u8GetEventSeverity
+   FM_vCloseEventLogger
+   FM_vLoadEventDataFromStorage
+   FM_vLogRemainingEvents
+   FM_vLogSpecialEvent
+   FM_vMainFunction
+CALLED_OBJECTS
+   ITCOM_s16GetEventQueueIndx
+   ITCOM_s16GetProcessingFlag
+   ITCOM_s16SetErrorEvent
+   ITCOM_u8GetASIState
+   ITCOM_u8GetParkStatus
+   ITCOM_u8GetVehicleSpeed
+   ITCOM_vExtSysNotification
+   ITCOM_vGetErrorEvent
+   ITCOM_vGetEventQueueId
+   ITCOM_vNotification_SM
+   ITCOM_vRemoveProcessedEvent
+   ITCOM_vSemaphoreTryWait
+   ITCOM_vSetErrorProcessingFlag
+   ITCOM_vSetEventQueueId
+   ITCOM_vSetEventQueueIndx
+   ITCOM_vUpdateCurrentEvent
+   log_message
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD fault_manager.c

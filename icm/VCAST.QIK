@@ -1,0 +1,58 @@
+--  QuickParse File Version: QP_ALL_DEFINED_ENTITIES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\icm
+BEGIN_RECORD icm.c
+CHECKSUM 1275188981
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   ICM_vCycleCountUpdater
+   ICM_vInit
+   ICM_vReceiveMessage
+   ICM_vTransmitMessage
+CALLED_OBJECTS
+   CRC_u16CalculateCrc
+   ITCOM_enGetTCPConnectionState
+   ITCOM_s16GetMessageEnumById
+   ITCOM_s16GetMessageEnumFromTypeAndId
+   ITCOM_s16GetMessageTypeEnum
+   ITCOM_s16SetErrorEvent
+   ITCOM_s8DequeueActionReq
+   ITCOM_s8LogNotificationMessage
+   ITCOM_s8SaveMsgData
+   ITCOM_s8ValidateMessageTypeLength
+   ITCOM_u16GetCycleCountData
+   ITCOM_u16GetRCData
+   ITCOM_u16GetSeqNumASIRecord
+   ITCOM_u16GetTrackBufferSize
+   ITCOM_u8GetASIState
+   ITCOM_u8GetCrcErrorCount
+   ITCOM_u8GetInitFlagStatus
+   ITCOM_u8GetParkStatus
+   ITCOM_u8GetRollingCountError
+   ITCOM_u8GetVehicleSpeed
+   ITCOM_vGetCycleSeqElementAtIndex
+   ITCOM_vGetMsgDictionaryEntryAtIndex
+   ITCOM_vGetMsgRateLimiter
+   ITCOM_vGetMsgTypeDictionaryEntryAtIndex
+   ITCOM_vRecordRC
+   ITCOM_vSetActionRequestStartTime
+   ITCOM_vSetCalibDataCopy
+   ITCOM_vSetCalibReadbackData
+   ITCOM_vSetCrcErrorCount
+   ITCOM_vSetCycleCountData
+   ITCOM_vSetInitFlagStatus
+   ITCOM_vSetMsgCycleCount
+   ITCOM_vSetMsgRateLimiter
+   ITCOM_vSetParkStatus
+   ITCOM_vSetRollingCountError
+   ITCOM_vSetSeqNumASIRecord
+   ITCOM_vSetTCPConnectionState
+   ITCOM_vSetVehicleSpeed
+   SD_GetTCPConnectionConfig
+   SD_vCloseTCPConnection
+   log_message
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+END_RECORD icm.c

@@ -1,0 +1,27 @@
+--  QuickParse File Version: QP_DROP_CTOR_TESTABLE_INCLUDES  --
+HOME_DIRECTORY C:\lhpes_repos\snt_sutc_test\Integration\src\sd
+BEGIN_RECORD system_diagnostics.c
+CHECKSUM 3611250633
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   SD_GetTCPConnectionConfig
+   SD_vCloseTCPConnection
+   SD_vMainFunction
+   SD_vTCPConnectionsInit
+CALLED_OBJECTS
+   ITCOM_s16SetErrorEvent
+   ITCOM_u8GetASIState
+   ITCOM_u8GetCriticalFaultStatus
+   ITCOM_vGetStateMonitorTestData
+   ITCOM_vSetASIState
+   ITCOM_vSetInitFlagStatus
+   ITCOM_vSetStateMonitorTestData
+   ITCOM_vSetTCPConnectionState
+   log_message
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   global_log_file
+GLOBAL_OBJECTS_DEFINED
+   sd_shutdown_initiated
+END_RECORD system_diagnostics.c
